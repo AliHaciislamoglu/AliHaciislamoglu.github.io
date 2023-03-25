@@ -32,6 +32,7 @@ h5{
 .link 
 {
   text-decoration:none;
+  color: white;
   position:relative;
 }
 .link::before 
