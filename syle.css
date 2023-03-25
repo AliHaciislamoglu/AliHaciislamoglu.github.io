@@ -1,0 +1,55 @@
+a:link{
+    text-decoration: none;
+    color: white;
+}
+.aw-zoom{
+    margin: 10px;
+}
+
+h4{
+    margin: 125px;
+    padding: 8px;
+}
+h3{
+    margin: 100px;
+    padding: 8px;
+}
+body{
+    background-image: url(istockphoto-859675534-612x612.jpg);
+}
+
+#tablo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#tablo2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+h5{
+    padding: 5px;
+}
+.link 
+{
+  text-decoration:none;
+  position:relative;
+}
+.link::before 
+{
+  content:'';
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:0px;
+  height:3px;
+  background:white;
+  opacity:0;
+  -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+.link:hover:before
+{
+  opacity:1;
+  width:100%;
+}
+
